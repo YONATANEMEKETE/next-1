@@ -22,9 +22,10 @@ const config = {
       colors: {
         accent: '#434eea',
         text: '#fafafa',
-        cardBg: 'dbd9e7',
+        cardBg: '#f4f1f4',
         accentV: '#8175f0',
         input: '#89869c',
+        rating: '#d4cd0c',
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
