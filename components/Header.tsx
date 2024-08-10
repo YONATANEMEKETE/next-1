@@ -10,7 +10,7 @@ import { Input } from './ui/input';
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between px-4 md:px-10 pt-4 md:pt-12 h-16 bg-text">
+    <nav className="flex items-center justify-between max-w-[1100px] mx-auto px-4 md:px-10 pt-4 md:pt-12 h-16 bg-text">
       <div className="flex items-center gap-4">
         <Button
           variant="secondary"

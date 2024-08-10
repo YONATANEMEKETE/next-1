@@ -20,7 +20,7 @@ const config = {
     },
     extend: {
       colors: {
-        accent: '#210fbd',
+        accent: '#434eea',
         text: '#fafafa',
         cardBg: 'dbd9e7',
         accentV: '#8175f0',
