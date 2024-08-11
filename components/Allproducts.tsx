@@ -10,7 +10,7 @@ const Allproducts = () => {
   const pages = [1, 2, 3];
 
   return (
-    <main className="pb-10 px-4 md:px-10 max-w-[1100px] mx-auto">
+    <main className="pb-10 px-4 md:px-10 max-w-[1100px mx-auto">
       <h1 className="text-2xl md:text-3xl  text-accent font-bold font-sans mb-6 md:mb-10 lg:mb-16">
         All Products
       </h1>

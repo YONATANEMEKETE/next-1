@@ -5,7 +5,7 @@ import Circles from './Circles';
 
 const Categories = () => {
   return (
-    <main className="mt-10 py-10 px-4 md:px-10 max-w-[1100px] mx-auto">
+    <main className="mt-10 py-10 px-4 md:px-10 max-w-[1100px mx-auto">
       <h1 className="text-2xl md:text-3xl  text-accent font-bold font-sans mb-6 md:mb-10 ">
         Categories
       </h1>

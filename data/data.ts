@@ -7,6 +7,12 @@ import shirt from '../public/shirt.png';
 import headphone from '../public/headphone.png';
 import bag from '../public/bag.png';
 import jacket from '../public/jacket.png';
+import { IoHome } from 'react-icons/io5';
+import { FaShoppingBasket } from 'react-icons/fa';
+import { IoWallet } from 'react-icons/io5';
+import { FaCartShopping } from 'react-icons/fa6';
+import { FaUserTie } from 'react-icons/fa';
+import { IoSettings } from 'react-icons/io5';
 
 export const categories = [
   {
@@ -74,5 +80,43 @@ export const allProducts = [
     image: bag,
     price: '$40.00',
     button: false,
+  },
+];
+
+type NavItem = {
+  id: number;
+  link: string;
+  icon: React.ReactNode;
+};
+export const navs = [
+  {
+    id: 1,
+    link: 'Home',
+    icon: IoHome,
+  },
+  {
+    id: 2,
+    link: 'Categories',
+    icon: FaShoppingBasket,
+  },
+  {
+    id: 3,
+    link: 'Cart',
+    icon: FaCartShopping,
+  },
+  {
+    id: 4,
+    link: 'User Profile',
+    icon: FaUserTie,
+  },
+  {
+    id: 5,
+    link: 'Wallet',
+    icon: IoWallet,
+  },
+  {
+    id: 6,
+    link: 'Settings',
+    icon: IoSettings,
   },
 ];
